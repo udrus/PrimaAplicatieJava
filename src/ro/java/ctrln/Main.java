@@ -3,9 +3,14 @@ package ro.java.ctrln;
 public class Main {
     // comentariu pentru tortoise
     // Aceasta e metoda main in aplicatia Java.
-    public static void main(String[] args) {
+    /*
+    Aici e un nou exemplu
+    de comentariu multi linie.
+     */
+    public static void main(/*args este parametrul metodei main*/String[] args) {
 
-        // Aici vrem sa afisam pe consola IntellIJ mesajul de mai jos sau un mesaj ales de noi.
+        /* Aici vrem sa afisam pe consola IntellIJ mesajul de mai jos sau un mesaj ales de noi
+        textul de aici face parte din comentariul multilinie */
 	    System.out.println("Invat limbajul Java si despre masina virtuala Java!");
     }
 }
